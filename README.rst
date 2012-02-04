@@ -27,7 +27,7 @@ Ejecución
 
 .. code-block:: console
 
-    $ funkload bench -t telesur.loadtesting.tests.test_Readonly
+    $ bin/funkload bench -t telesur.loadtesting.tests.test_Readonly
 
 
 Descargas
