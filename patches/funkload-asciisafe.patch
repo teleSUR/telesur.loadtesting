@@ -1,0 +1,11 @@
+--- funkload/ReportRenderHtmlBase.py	2012-02-04 12:57:26.008806441 -0300
++++ funkload/ReportRenderHtmlBase.py.new	2012-02-04 12:58:04.128807492 -0300
+@@ -82,7 +82,7 @@
+         """Create the ReST file."""
+         rst_path = os.path.join(self.report_dir, 'index.rst')
+         f = open(rst_path, 'w')
+-        f.write(str(self))
++        f.write(unicode(self).encode("utf-8"))
+         f.close()
+         self.rst_path = rst_path
+ 

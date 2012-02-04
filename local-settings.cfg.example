@@ -1,0 +1,5 @@
+[buildout]
+
+newest = false
+index = http://localhost:80/
+allow-hosts = *localhost*
