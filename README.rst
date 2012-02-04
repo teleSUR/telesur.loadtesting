@@ -15,8 +15,12 @@ Características
 Instalación
 ===========
 
-Usted puede leer el archivo ``INSTALL.txt`` dentro del directorio ``docs`` de
-este paquete.
+Dependencias
+------------
+
+.. code-block:: console
+    $ sudo apt-get install gnuplot
+
 
 Ejecución
 =========
